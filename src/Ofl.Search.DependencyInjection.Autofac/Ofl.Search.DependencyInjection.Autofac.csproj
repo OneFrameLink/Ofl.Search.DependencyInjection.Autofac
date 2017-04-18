@@ -6,6 +6,7 @@
     <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Search.DependencyInjection.Autofac.git</PackageProjectUrl>
     <PackageTags>search dependencyinjection di autofac</PackageTags>
     <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Search.DependencyInjection.Autofac.git</RepositoryUrl>
+	<Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
