@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Description>Ofl.Search.Abstractions implementation registrations in Autofac.</Description>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Search.DependencyInjection.Autofac.git</PackageProjectUrl>
+    <PackageTags>search dependencyinjection di autofac</PackageTags>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Search.DependencyInjection.Autofac.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
+    <PackageReference Include="Ofl.Search" Version="1.0.4" />
+    <PackageReference Include="Ofl.Search.Abstractions" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
