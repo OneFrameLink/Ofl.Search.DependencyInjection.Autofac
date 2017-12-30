@@ -1,9 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Search.DependencyInjection.Autofac", "src\Ofl.Search.DependencyInjection.Autofac\Ofl.Search.DependencyInjection.Autofac.csproj", "{23708C44-3580-4539-BC29-D224C0960624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Search.DependencyInjection.Autofac", "src\Ofl.Search.DependencyInjection.Autofac\Ofl.Search.DependencyInjection.Autofac.csproj", "{23708C44-3580-4539-BC29-D224C0960624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D85F02A7-0F68-4279-A1F0-562FA7A8142D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{1F1DC5AB-4CA9-426F-B0B9-D7A7A9040E7D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +31,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23708C44-3580-4539-BC29-D224C0960624} = {D85F02A7-0F68-4279-A1F0-562FA7A8142D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {493A317E-A530-4881-BA4D-3FA6A0AE1EA6}
 	EndGlobalSection
 EndGlobal

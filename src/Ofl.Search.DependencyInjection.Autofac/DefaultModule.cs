@@ -3,6 +3,7 @@ using Autofac;
 
 namespace Ofl.Search.DependencyInjection.Autofac
 {
+    [Obsolete]
     public class DefaultModule : Module
     {
         #region Overrides of Module
